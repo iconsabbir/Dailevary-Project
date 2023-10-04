@@ -17,8 +17,8 @@ const Home = () => {
                         <div className='container'>
                             <div className='baner-flex'>
 
-
-                                <div className='col-lg-7'>
+                            <div className='row'>
+                            <div className='col-lg-7 col-sm-12 col-12'>
                                     <div className='baner'>
                                         <h1>We offer a wide range of logistics solutions.</h1>
 
@@ -33,13 +33,15 @@ const Home = () => {
 
                                 </div>
 
-                                <div className='col-lg-4'>
+                                <div className='col-lg-4 col-sm-8 col-12'>
                                     <div className='biker-img'>
                                         <img src={baner} alt="" />
 
                                     </div>
 
                                 </div>
+                            </div>
+                                
 
 
 
@@ -48,7 +50,8 @@ const Home = () => {
                     </div>
                      <div className='Golobal-section'>
                         <div className=' container golobal-flex'>
-                            <div className='col-lg-6'>
+                            <div className='row'>
+                            <div className='col-lg-6 col-sm-12'>
                                 <div className='golobal-artecal'>
                                     <h3>Go global with ease</h3>
                                     <h4>We simplify your logistics, while plugging your company into a world of opportunities. We believe every company deserves to feel the excitement of going global, regardless of size.</h4>
@@ -56,7 +59,7 @@ const Home = () => {
                                 </div>
 
                             </div>
-                            <div className='col-lg-5'>
+                            <div className='col-lg-5 col-sm-10'>
                                 <div className='golobal-artecal-2'>
                                     <div  className='golobal-artecal-colem'>
                                         <h5>Easy booking, multiple services</h5>
@@ -73,6 +76,7 @@ const Home = () => {
                                 </div>
 
                             </div>
+                            </div>
                         </div>
                     </div>
 
@@ -84,8 +88,10 @@ const Home = () => {
 
                                 <h1>Latest Articles</h1>
                             </div>
+                            
                             <div className='last-artecil-flex'>
-                                <div className='col-lg-4'>
+                            <div className='row'>
+                            <div className='col-lg-4 col--12'>
                                     <div className='artecal-1'>
                                         <img src={artcalimg1} alt="" />
                                         <div className='artecal-text'>
@@ -117,7 +123,9 @@ const Home = () => {
                                         </div>
                                     </div>
                                 </div>
+                            </div>
                            </div>
+                            
 
                            <div className='text-center  button-blog-artecal'>
                            <button >More Artcile</button>
@@ -131,8 +139,8 @@ const Home = () => {
                     <div className='price-section'>
                     <div className='price-titel'><h1>Delivery Packages</h1></div>
                         <div className='container price-flex'>
-                            
-                            <div className='col-lg-3'>
+                            <div className='row'>
+                            <div className='col-lg-3 col-sm-6 col-12'>
                                 <div className='price-content'>
                                         <h4>STANDARD</h4>
                                         <h1>$56.95</h1>
@@ -148,7 +156,7 @@ const Home = () => {
                                     
                                 </div>
                             </div>
-                             <div className='col-lg-3'>
+                             <div className='col-lg-3 col-sm-6 col-12'>
                                 <div className='price-content-2'>
                                         <h4>BASIC</h4>
                                         <h1>$79.50</h1>
@@ -166,7 +174,7 @@ const Home = () => {
 
                                 </div>
                              </div>
-                             <div className='col-lg-3'>
+                             <div className='col-lg-3 col-sm-6 col-12'>
                                 <div className='price-content'>
                                 <h4>DELUXE</h4>
                                         <h1>$103.40</h1>
@@ -183,7 +191,7 @@ const Home = () => {
 
                                 </div>
                              </div>
-                             <div className='col-lg-3'>
+                             <div className='col-lg-3 col-sm-6 col-12'>
                                 <div className='price-content'>
                                 <h4>ULTIMATE</h4>
                                         <h1>$190.50</h1>
@@ -201,7 +209,9 @@ const Home = () => {
                                     
 
                                 </div>
-                                </div>                           
+                                </div> 
+                            </div>
+                                                      
                         </div>
                     </div>
 
@@ -211,7 +221,8 @@ const Home = () => {
                         <div className='clint-section'>
                             <h1 className='text-center Clint-say'>What Our Client Say</h1>
                             <div className='container clint-flex'>
-                                <div className='col-lg-4'>
+                             <div className='row'>
+                             <div className='col-lg-4 col-sm-8 col-12'>
                                     <div  className='clint '>
                                        <div className='img-name-flex'>
                                        <div className='clint-1-img'>
@@ -229,7 +240,7 @@ const Home = () => {
 
                                     </div>
                                 </div>
-                                <div className='col-lg-4'> 
+                                <div className='col-lg-4 col-sm-8 col-12'> 
                                 <div className='clint'>
                                        <div className='img-name-flex'>
                                        <div className='clint-1-img'>
@@ -246,7 +257,7 @@ const Home = () => {
 
 
                                     </div></div>
-                                <div className='col-lg-4'>
+                                <div className='col-lg-4 col-sm-8 col-12'>
                                 <div className='clint'>
                                        <div className='img-name-flex'>
                                        <div className='clint-1-img'>
@@ -261,7 +272,8 @@ const Home = () => {
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laudantium excepturi sit, laboriosam, similique molestias tempora earum optio, ad corrupti iure! </p>
                                     </div>
                                     
-                                    </div>                                
+                                    </div> 
+                                </div>                               
                                 
                             </div>
                              
@@ -269,7 +281,46 @@ const Home = () => {
                     </div>
 
 
+                    <div className='sheping-secton'>
+                        <div className=' container Book-sheping'>
+                           <div className='sheping-flex'>
+                           <div className='row'>
+                           <div className='col-lg-5 col-sm-12 col-12'>
+                                <div className='sheping-time'>
+                                   <div className='customer-time'>
+                                   <h5>2043</h5>
+                                    <p>Active Customers</p>
+                                   </div>
+                                   <div className='customer-time'>
+                                   <h5>3298</h5>
+                                    <p>Monthly Shipments</p>
+                                   </div>
+                                   <div className='customer-time'>
+                                   <h5>5 min</h5>
+                                    <p>To Book A Shipment</p>
+                                   </div>
 
+                                </div>
+                            </div>
+                            <div className='col-lg-7'>
+                                <div className='sheping-reg'>
+                                    <h1>Ready to book your shipment?</h1>
+                                    <h5>Create an account to book. It only takes a few steps!</h5>
+                                    <div className='text-center shiping-button'>
+                                    <button >Create Account</button>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                           </div>
+
+                           </div>
+                        </div>
+
+                    </div>
 
 
 

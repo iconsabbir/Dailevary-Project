@@ -1,0 +1,44 @@
+.footer-section{
+    background-color: #F8F8F8;
+    padding: 80px 0;
+}
+.footer-flex{
+    display: flex;
+  
+    
+}
+.footer-link{
+    padding: 20px 38px;
+}
+.footer-link h4{
+    text-align: center;
+    font-size: 20px;
+}
+.footer-link ul{
+    align-items: center;
+    font-size: 16px;
+    
+    
+}
+.footer-link ul li{
+  padding: 12px 0;
+}
+.footer-link ul li a{
+   text-decoration: none;
+   color: black;
+   transition: all 0.3s ease-in;
+   
+    
+}
+.footer-link a:hover{
+        color: #94e3e7;
+
+}
+.copy-right{
+    background-color: #3AC5CE;
+    padding: 28px 0;
+}
+.copy-right-title p{
+    text-align: center;
+    font-size: 12px;
+}

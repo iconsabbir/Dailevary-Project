@@ -381,3 +381,69 @@
     font-family: 'Roboto', sans-serif;
     padding: 100px 0 30px 0;
 }
+
+/* clint section End  */
+
+
+.sheping-secton{
+    padding: 160px 0;
+}
+.Book-sheping{}
+.sheping-flex{
+    display: flex;
+}
+.sheping-time{
+    background-color: #DAF0F1;
+    padding: 80px 100px;
+}
+.customer-time{
+    padding: 19px 40px;
+}
+.customer-time h5{
+    font-size: 65px;
+    font-family: 'Jost', sans-serif;
+    
+}
+.customer-time p{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+.sheping-reg{
+    background-color: #3AC5CE;
+    padding:100px 130px;
+}
+.sheping-reg h1{
+    font-size: 70px;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+.sheping-reg h5{
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+.shiping-button{
+    padding: 48px 0;
+}
+
+.shiping-button button{
+    padding: 24px 40px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    border-color: white;
+    border: 1px solid white;
+    color: #3AC5CE;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+}
+.shiping-button button:hover{
+    background-color: #3AC5CE;
+    color: white;
+    
+    
+}
