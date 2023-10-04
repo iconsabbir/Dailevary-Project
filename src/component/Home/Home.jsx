@@ -208,7 +208,8 @@ const Home = () => {
                 {/* Clint Section */}
 
                     <div>
-                        <div className='clint-section '>
+                        <div className='clint-section'>
+                            <h1 className='text-center Clint-say'>What Our Client Say</h1>
                             <div className='container clint-flex'>
                                 <div className='col-lg-4'>
                                     <div  className='clint '>
@@ -223,7 +224,7 @@ const Home = () => {
                                        </div>
                                         
                                         <h1>Thank you For a great service</h1>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laudantium excepturi sit, laboriosam, similique molestias tempora earum optio, ad corrupti iure! Sit aliquam quo autem labore </p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laudantium excepturi sit, laboriosam, similique molestias tempora earum optio, ad corrupti iure! </p>
 
 
                                     </div>
@@ -241,7 +242,7 @@ const Home = () => {
                                        </div>
                                         
                                         <h1>Thank you For a great service</h1>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laudantium excepturi sit, laboriosam, similique molestias tempora earum optio, ad corrupti iure! Sit aliquam quo autem labore </p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laudantium excepturi sit, laboriosam, similique molestias tempora earum optio, ad corrupti iure! </p>
 
 
                                     </div></div>
@@ -257,7 +258,7 @@ const Home = () => {
                                         </div>
                                        </div>
                                         <h1>Thank you For a great service</h1>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laudantium excepturi sit, laboriosam, similique molestias tempora earum optio, ad corrupti iure! Sit aliquam quo autem labore </p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laudantium excepturi sit, laboriosam, similique molestias tempora earum optio, ad corrupti iure! </p>
                                     </div>
                                     
                                     </div>                                
