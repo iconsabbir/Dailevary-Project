@@ -3,6 +3,12 @@ import './Home.css';
 import baner from "../../assets/scooter.png";
 import artcalimg1 from "../../assets/plane.png";
 import artcalimg2 from "../../assets/box.png";
+import clint from "../../assets/person1.png";
+import clint2 from "../../assets/person2.png";
+
+
+
+
 
 const Home = () => {
     return (
@@ -52,7 +58,7 @@ const Home = () => {
                             </div>
                             <div className='col-lg-5'>
                                 <div className='golobal-artecal-2'>
-                                    <div className='golobal-artecal-colem'>
+                                    <div  className='golobal-artecal-colem'>
                                         <h5>Easy booking, multiple services</h5>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
                                     </div>
@@ -122,10 +128,144 @@ const Home = () => {
                         
                     </div>
 
+                    <div className='price-section'>
+                    <div className='price-titel'><h1>Delivery Packages</h1></div>
+                        <div className='container price-flex'>
+                            
+                            <div className='col-lg-3'>
+                                <div className='price-content'>
+                                        <h4>STANDARD</h4>
+                                        <h1>$56.95</h1>
+                                        <p><span class="price-tick">✓</span>Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span>Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span>Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span>Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                       
+                                        <div className='text-center price-button'>
+                                        <button>Book Now</button>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                             <div className='col-lg-3'>
+                                <div className='price-content-2'>
+                                        <h4>BASIC</h4>
+                                        <h1>$79.50</h1>
+                                        <p><span class="price-tick">✓</span>Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span>Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span>Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span>Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> Velit mir</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                        
+                                        <div className='text-center price-button2'>
+                                        <button>Book Now</button>
+                                        </div>
+                                    
+
+                                </div>
+                             </div>
+                             <div className='col-lg-3'>
+                                <div className='price-content'>
+                                <h4>DELUXE</h4>
+                                        <h1>$103.40</h1>
+                                        <p><span class="price-tick">✓</span>Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span>Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span>Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                        <p><span class="price-tick">✓</span>Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span>  Ipsum dolor</p>
+                                        <div className='text-center price-button3'>
+                                        <button>Book Now</button>
+                                        </div>
+                                    
+
+                                </div>
+                             </div>
+                             <div className='col-lg-3'>
+                                <div className='price-content'>
+                                <h4>ULTIMATE</h4>
+                                        <h1>$190.50</h1>
+                                        <p><span class="price-tick">✓</span>Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span>Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span>Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> It ir ivamus</p>
+                                        <p><span class="price-tick">✓</span>Elit mir ivamus</p>
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> it mir iamu</p>
+                                        
+                                        <div className='text-center price-button4'>
+                                        <button>Book Now</button>
+                                        </div>
+                                    
+
+                                </div>
+                                </div>                           
+                        </div>
+                    </div>
+
+                {/* Clint Section */}
+
+                    <div>
+                        <div className='clint-section '>
+                            <div className='container clint-flex'>
+                                <div className='col-lg-4'>
+                                    <div  className='clint '>
+                                       <div className='img-name-flex'>
+                                       <div className='clint-1-img'>
+                                            <img src={clint} alt="" />
+                                        </div>
+                                        <div>
+                                            <h4>Reman Maggie</h4>
+                                            <p>Seoul,South Korea</p>
+                                        </div>
+                                       </div>
+                                        
+                                        <h1>Thank you For a great service</h1>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laudantium excepturi sit, laboriosam, similique molestias tempora earum optio, ad corrupti iure! Sit aliquam quo autem labore </p>
 
 
+                                    </div>
+                                </div>
+                                <div className='col-lg-4'> 
+                                <div className='clint'>
+                                       <div className='img-name-flex'>
+                                       <div className='clint-1-img'>
+                                            <img src={clint2}alt="" />
+                                        </div>
+                                        <div>
+                                            <h4>Jack Reri</h4>
+                                            <p>New york, Usa</p>
+                                        </div>
+                                       </div>
+                                        
+                                        <h1>Thank you For a great service</h1>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laudantium excepturi sit, laboriosam, similique molestias tempora earum optio, ad corrupti iure! Sit aliquam quo autem labore </p>
 
 
+                                    </div></div>
+                                <div className='col-lg-4'>
+                                <div className='clint'>
+                                       <div className='img-name-flex'>
+                                       <div className='clint-1-img'>
+                                            <img src={clint} alt="" />
+                                        </div>
+                                        <div>
+                                            <h4>Karl Worlter</h4>
+                                            <p>New york, Usa</p>
+                                        </div>
+                                       </div>
+                                        <h1>Thank you For a great service</h1>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laudantium excepturi sit, laboriosam, similique molestias tempora earum optio, ad corrupti iure! Sit aliquam quo autem labore </p>
+                                    </div>
+                                    
+                                    </div>                                
+                                
+                            </div>
+                             
+                        </div>
+                    </div>
 
 
 

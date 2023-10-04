@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Lato:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&family=Source+Code+Pro:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Lato:wght@400;700;900&family=Roboto:wght@300;400;500&display=swap');
 .baner-main{
     background-color: #EBFDFF;
 }
@@ -178,4 +179,186 @@
 }
 .button-blog-artecal button:hover{
     background-color:#3AC5CE ;
+}
+/* Artecal section end */
+
+
+
+/* price section start */
+
+.price-section{
+    padding: 20px 0 40px 0;
+}
+.price-titel{
+    padding: 80px 0;
+
+}
+.price-titel h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Jost', sans-serif;
+    color: #083C3E;
+}
+.price-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.price-content{
+    border: 2px solid #0a3d62;
+    width: 300px;
+   height: 700px;
+    padding: 30px 60px;
+    
+
+}
+
+/* price content ----2 */
+
+
+.price-content-2{
+    border: 2px solid #0a3d62;
+    width: 300px;
+   height: 700px;
+    padding: 30px 60px;
+    background-color: #083C3E;
+}
+.price-content-2 h4{
+    text-align: center;
+    margin: 40px 10px;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+.price-content-2 h1{
+    text-align: center;
+    padding: 5px 0 28px 0;
+    font-size: 50px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.price-content-2 p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    
+}
+
+.price-content-2 .price-tick{
+    margin-right: 8px;
+   
+}
+/* price content ----2 */
+
+
+
+.price-content h4{
+    text-align: center;
+    margin: 40px 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.price-content h1{
+    text-align: center;
+    padding: 5px 0 28px 0;
+    font-size: 50px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+}
+.price-content p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.price-content p span{}
+.price-content .price-tick{
+    margin-right: 8px;
+   
+}
+.price-button button{
+   margin: 150px 0;
+   padding: 12px 30px;
+   border-radius: 32px;
+   font-size: 18px;
+   background-color: #083C3E;
+   outline: none;
+   border: none;
+   color: white;
+   transition: all 0.3s ease-in-out;
+}
+.price-button2 button{
+    margin: 100px 0;
+    padding: 12px 30px;
+   border-radius: 32px;
+   font-size: 18px;
+   background-color: white;
+   outline: none;
+   border: none;
+   color:#083C3E;
+   transition: all 0.3s ease-in-out;
+}
+.price-button3 button{
+    margin: 95px 0;
+    padding: 12px 30px;
+   border-radius: 32px;
+   font-size: 18px;
+   background-color: #083C3E;
+   color: white;
+   outline: none;
+   border: none;
+   transition: all 0.3s ease-in-out;
+}
+.price-button4 button{
+    margin: 50px 0;
+    padding: 12px 30px;
+   border-radius: 32px;
+   font-size: 18px;
+   background-color: #083C3E;
+   color: white; 
+   transition: all 0.3s ease-in-out;
+   outline: none;
+   border: none;
+}
+
+
+/* Price Button hover */
+
+
+.price-button button:hover{
+    background-color: #3AC5CE;
+}
+.price-button2 button:hover{
+    background-color: #EBFDFF;
+}
+.price-button3 button:hover{
+    background-color: #3AC5CE;
+}
+.price-button4 button:hover{
+    background-color: #3AC5CE;
+}
+
+ 
+/* price SEction end */
+
+
+/* Clint Section Start */
+
+
+.clint-section{}
+.clint-flex{
+    display: flex;
+}
+
+.clint-1-img{
+    
+}
+.img-name-flex{
+    display: flex;
+    border: 1px solid #083C3E;
+    background-color: #F8F8F8;
+    margin: 50px 20px;
 }
