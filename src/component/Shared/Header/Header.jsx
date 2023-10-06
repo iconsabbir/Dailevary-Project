@@ -1,10 +1,11 @@
 import React from 'react';
 import logo from "../../../assets/Deliver.png"
 import "./Header.css";
-import { Link } from 'react-router-dom';
+import { Link, } from 'react-router-dom';
 
 
 const Header = () => {
+    
     return (
         <div>
             
@@ -23,7 +24,7 @@ const Header = () => {
                             <li><Link to="/contact">Contact</Link></li>
                             <div className='login-section'>
                             <li><Link to="/login">Login</Link></li>
-                            <button className=''>SingUp</button>     
+                            <button>SingUp</button>     
 
                             </div>
                                                   

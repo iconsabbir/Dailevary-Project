@@ -1,0 +1,74 @@
+.contact-section{
+    background-color: #EBFDFF;
+    
+}
+.contact{
+    padding: 210px 0;
+}
+.contact li{
+    font-size: 24px;
+    padding: 10px 0;
+    color: brown;
+}
+.contact li a{
+        color: blue;
+}
+.contact h1{
+    font-size: 70px;
+    font-family: 'Jost', sans-serif;
+    margin-top: 20px;
+}
+.input-flex{
+    display: flex;
+}
+.submit-btn{
+       padding: 20px 30px;
+}
+.submit-btn button{
+    background-color: blueviolet;
+    color: #EBFDFF;
+    text-decoration: none;
+    padding: 16px 100px;
+    border-radius: 32px;
+
+}
+.main-contact{
+    padding: 120px 0;
+}
+.submit-title{
+    padding: 20px 0;
+}
+.submit-title h1{}
+.submit-title p{}
+.submit-detals{
+    padding: 10px 0;
+}
+.contact-info{
+   padding: 30px 0;
+}
+.detals-1{}
+.detals-1 h2{
+    font-size: 30px;
+    
+}
+.detals-1 h5{
+    font-size: 16px;
+    padding: 10px 0;
+}
+.detals-2{
+    padding: 20px 0;
+}
+.detals-2 h6{
+    font-size: 24px;
+}
+.detals-2 p{
+    font-size: 18px;
+}
+.detals-3{}
+.detals-3 a{
+    text-decoration: none;
+    color: black;
+}
+.detals-3 p{}
+.detals-4{}
+.detals-5{}

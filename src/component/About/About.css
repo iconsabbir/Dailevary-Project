@@ -31,6 +31,7 @@
     color: black;
     font-weight: 600;
     margin-left: 20px;
+    font-family: 'Jost', sans-serif;
 }
 .about-paragrap p{
     margin-left: 20px;
@@ -56,7 +57,7 @@
 }
 .about-paragrap2 h4{
     font-size: 30px;
-    
+    font-family: 'Jost', sans-serif;
     color: black;
     font-weight: 600;
    
