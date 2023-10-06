@@ -302,7 +302,7 @@ const Home = () => {
 
                                 </div>
                             </div>
-                            <div className='col-lg-7'>
+                            <div className='col-lg-7 col-sm-12 col-12'>
                                 <div className='sheping-reg'>
                                     <h1>Ready to book your shipment?</h1>
                                     <h5>Create an account to book. It only takes a few steps!</h5>

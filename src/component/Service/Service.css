@@ -1,0 +1,87 @@
+
+
+
+.service-section{
+    background-color: #EBFDFF;
+    
+}
+.service{
+    padding: 210px 0;
+}
+.service li{
+    font-size: 24px;
+    padding: 10px 0;
+    color: brown;
+}
+.service li a{
+        color: blue;
+}
+.service h1{
+    font-size: 70px;
+    font-family: 'Jost', sans-serif;
+    margin-top: 20px;
+}
+
+.shervice-transfer{
+    padding: 30px;
+}
+.Service-title h1{
+    text-align: center;
+    padding: 100px 0;
+    font-family: 'Jost', sans-serif;
+    font-size: 80px;
+}
+.service-content{
+        background-color:#F8F8F8 ;
+        padding: 44px 55px;
+}
+.service-content img{
+    padding: 20px 0;
+}
+.service-content h3{
+    padding: 0  0 5px 0;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.service-content p{
+    padding: 0 0 20px 0;
+}
+.service-content a{
+    color: #576574 ;
+    text-decoration: none;
+    text-transform: capitalize;
+    position: relative;
+}
+.service-content a::after{
+    content: '';
+    position: absolute;
+    background-color:#3dc1d3;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.4s;
+}
+.service-content a:hover::after{
+    width: 0;
+}
+
+.gallary-section{
+    padding: 120px 0;
+}
+.g-img{}
+.g-img img{
+    width: 100%;
+    vertical-align: middle;
+    height: auto;
+    padding: 10px 0;
+}
+.gallary-title{}
+.gallary-title h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Jost', sans-serif;
+    color: #576574;
+    padding: 60px 0;
+}
