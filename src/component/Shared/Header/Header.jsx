@@ -1,11 +1,11 @@
 import React from 'react';
 import logo from "../../../assets/Deliver.png"
 import "./Header.css";
-import { Link, } from 'react-router-dom';
+import { Link, useNavigate, } from 'react-router-dom';
 
 
 const Header = () => {
-    
+    const navigate = useNavigate()
     return (
         <div>
             
@@ -24,7 +24,7 @@ const Header = () => {
                             <li><Link to="/contact">Contact</Link></li>
                             <div className='login-section'>
                             <li><Link to="/login">Login</Link></li>
-                            <button>SingUp</button>     
+                            <button  onClick={()=>navigate("/singup")}>SingUp</button>     
 
                             </div>
                                                   

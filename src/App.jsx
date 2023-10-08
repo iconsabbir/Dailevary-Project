@@ -7,6 +7,7 @@ import Service from './component/Service/Service';
 import About from './component/About/About';
 import Contact from './component/Contact/Contact';
 import Login from './component/Login/Login';
+import SingUp from './component/SingUp/SingUp';
 
 function App() {
   const router = createBrowserRouter([
@@ -37,6 +38,10 @@ function App() {
     {
       path:'/login',
       element:<Login></Login>
+    },
+    {
+      path:'/singup',
+      element:<SingUp></SingUp>
     }
 
       ]
